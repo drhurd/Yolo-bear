@@ -6,11 +6,11 @@
 //  Copyright (c) 2014 Because. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MasterViewController.h"
 #import <CoreLocation/CoreLocation.h>
 
 
-@interface ViewController () <CLLocationManagerDelegate>
+@interface MasterViewController () <CLLocationManagerDelegate>
 
 @property CLLocationManager *locationManager;
 @property NSMutableDictionary *beacons;
@@ -19,7 +19,12 @@
 
 @end
 
-@implementation ViewController
+@implementation MasterViewController
+
+- (void) loadView
+{
+	self.view = [[BaseView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+}
 
 - (void)viewDidLoad
 {

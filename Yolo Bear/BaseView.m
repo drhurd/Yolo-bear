@@ -15,6 +15,13 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
+		self.backgroundColor = [UIColor whiteColor];
+		
+		self.btn = [UIButton buttonWithType:UIButtonTypeSystem];
+		[self.btn  setTitle:@"Toggle" forState:UIControlStateNormal];
+		[self.btn setFrame:CGRectMake(100, 100, 75, 30)];
+		
+		[self addSubview:self.btn];
     }
     return self;
 }

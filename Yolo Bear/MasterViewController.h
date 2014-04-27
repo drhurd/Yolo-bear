@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseView.h"
 
-@interface ViewController : UIViewController
+@interface MasterViewController : UIViewController
+
+@property (nonatomic, strong) BaseView* view;
 
 @end

@@ -10,4 +10,6 @@
 
 @interface BaseView : UIView
 
+@property (nonatomic, strong) UIButton *btn;
+
 @end
