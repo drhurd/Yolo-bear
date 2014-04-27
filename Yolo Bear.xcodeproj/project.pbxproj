@@ -20,6 +20,7 @@
 		20AFC491190D9DE000AAF974 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AFC473190D9DE000AAF974 /* UIKit.framework */; };
 		20AFC499190D9DE000AAF974 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20AFC497190D9DE000AAF974 /* InfoPlist.strings */; };
 		20AFC49B190D9DE000AAF974 /* Yolo_BearTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AFC49A190D9DE000AAF974 /* Yolo_BearTests.m */; };
+		ED1AD450190DA4FE009B62EB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1AD44F190DA4FE009B62EB /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		20AFC496190D9DE000AAF974 /* Yolo BearTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yolo BearTests-Info.plist"; sourceTree = "<group>"; };
 		20AFC498190D9DE000AAF974 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20AFC49A190D9DE000AAF974 /* Yolo_BearTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Yolo_BearTests.m; sourceTree = "<group>"; };
+		ED1AD44F190DA4FE009B62EB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1AD450190DA4FE009B62EB /* CoreLocation.framework in Frameworks */,
 				20AFC472190D9DE000AAF974 /* CoreGraphics.framework in Frameworks */,
 				20AFC474190D9DE000AAF974 /* UIKit.framework in Frameworks */,
 				20AFC470190D9DE000AAF974 /* Foundation.framework in Frameworks */,
@@ -99,6 +102,7 @@
 		20AFC46E190D9DE000AAF974 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED1AD44F190DA4FE009B62EB /* CoreLocation.framework */,
 				20AFC46F190D9DE000AAF974 /* Foundation.framework */,
 				20AFC471190D9DE000AAF974 /* CoreGraphics.framework */,
 				20AFC473190D9DE000AAF974 /* UIKit.framework */,
@@ -444,6 +448,7 @@
 				20AFC4A0190D9DE000AAF974 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20AFC4A1190D9DE000AAF974 /* Build configuration list for PBXNativeTarget "Yolo BearTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +457,7 @@
 				20AFC4A3190D9DE000AAF974 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

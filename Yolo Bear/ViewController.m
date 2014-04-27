@@ -7,12 +7,15 @@
 //
 
 #import "ViewController.h"
-@import CoreLocation;
+#import <CoreLocation/CoreLocation.h>
 
 
 @interface ViewController () <CLLocationManagerDelegate>
 
 @property CLLocationManager *locationManager;
+@property NSMutableDictionary *beacons;
+@property NSMutableDictionary *rangedRegions;
+@property NSArray* supportedProximityUUIDs;
 
 @end
 
@@ -22,6 +25,23 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.locationManager = [[CLLocationManager alloc] init];
+    self.locationManager.delegate = self;
+    
+    self.beacons = [[NSMutableDictionary alloc] init];
+    
+    self.supportedProximityUUIDs = @[[[NSUUID alloc] initWithUUIDString:@"E2C56DB5-DFFB-48D2-B060-D0F5A71096E0"],
+                                 [[NSUUID alloc] initWithUUIDString:@"5A4BCFCE-174E-4BAC-A814-092E77F6B7E5"],
+                                 [[NSUUID alloc] initWithUUIDString:@"74278BDA-B644-4520-8F0C-720EAF059935"]];
+    
+    self.rangedRegions = [[NSMutableDictionary alloc] init];
+    
+    for (NSUUID *uuid in self.supportedProximityUUIDs)
+    {
+        CLBeaconRegion *region = [[CLBeaconRegion alloc] initWithProximityUUID:uuid identifier:[uuid UUIDString]];
+        self.rangedRegions[region] = [NSArray array];
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -42,6 +62,8 @@
      use a set instead of an array.
      */
 }
+
+
 
 
 @end
