@@ -35,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14BE22ECC9684113B213527D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		20AFC46C190D9DE000AAF974 /* Yolo Bear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yolo Bear.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20AFC46F190D9DE000AAF974 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		20AFC471190D9DE000AAF974 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -91,7 +90,6 @@
 				20AFC494190D9DE000AAF974 /* Yolo BearTests */,
 				20AFC46E190D9DE000AAF974 /* Frameworks */,
 				20AFC46D190D9DE000AAF974 /* Products */,
-				14BE22ECC9684113B213527D /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,11 +166,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20AFC49E190D9DE000AAF974 /* Build configuration list for PBXNativeTarget "Yolo Bear" */;
 			buildPhases = (
-				AF2BF997288F4BE1BA3ECB35 /* Check Pods Manifest.lock */,
 				20AFC468190D9DE000AAF974 /* Sources */,
 				20AFC469190D9DE000AAF974 /* Frameworks */,
 				20AFC46A190D9DE000AAF974 /* Resources */,
-				CE79F21F6F124CBFB4253E83 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,39 +249,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		AF2BF997288F4BE1BA3ECB35 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		CE79F21F6F124CBFB4253E83 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20AFC468190D9DE000AAF974 /* Sources */ = {
@@ -423,7 +386,6 @@
 		};
 		20AFC4A0190D9DE000AAF974 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14BE22ECC9684113B213527D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
