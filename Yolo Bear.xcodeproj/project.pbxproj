@@ -13,7 +13,6 @@
 		20AFC47A190D9DE000AAF974 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20AFC478190D9DE000AAF974 /* InfoPlist.strings */; };
 		20AFC47C190D9DE000AAF974 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AFC47B190D9DE000AAF974 /* main.m */; };
 		20AFC480190D9DE000AAF974 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AFC47F190D9DE000AAF974 /* AppDelegate.m */; };
-		20AFC483190D9DE000AAF974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20AFC481190D9DE000AAF974 /* Main.storyboard */; };
 		20AFC486190D9DE000AAF974 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AFC485190D9DE000AAF974 /* ViewController.m */; };
 		20AFC488190D9DE000AAF974 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20AFC487190D9DE000AAF974 /* Images.xcassets */; };
 		20AFC48F190D9DE000AAF974 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AFC48E190D9DE000AAF974 /* XCTest.framework */; };
@@ -44,7 +43,6 @@
 		20AFC47D190D9DE000AAF974 /* Yolo Bear-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yolo Bear-Prefix.pch"; sourceTree = "<group>"; };
 		20AFC47E190D9DE000AAF974 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20AFC47F190D9DE000AAF974 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		20AFC482190D9DE000AAF974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20AFC484190D9DE000AAF974 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		20AFC485190D9DE000AAF974 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		20AFC487190D9DE000AAF974 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -114,7 +112,6 @@
 			children = (
 				20AFC47E190D9DE000AAF974 /* AppDelegate.h */,
 				20AFC47F190D9DE000AAF974 /* AppDelegate.m */,
-				20AFC481190D9DE000AAF974 /* Main.storyboard */,
 				20AFC484190D9DE000AAF974 /* ViewController.h */,
 				20AFC485190D9DE000AAF974 /* ViewController.m */,
 				20AFC487190D9DE000AAF974 /* Images.xcassets */,
@@ -230,7 +227,6 @@
 			files = (
 				20AFC488190D9DE000AAF974 /* Images.xcassets in Resources */,
 				20AFC47A190D9DE000AAF974 /* InfoPlist.strings in Resources */,
-				20AFC483190D9DE000AAF974 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +276,6 @@
 				20AFC479190D9DE000AAF974 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		20AFC481190D9DE000AAF974 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20AFC482190D9DE000AAF974 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		20AFC497190D9DE000AAF974 /* InfoPlist.strings */ = {
