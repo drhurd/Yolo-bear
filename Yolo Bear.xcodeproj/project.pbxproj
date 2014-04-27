@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20AFC470190D9DE000AAF974 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AFC46F190D9DE000AAF974 /* Foundation.framework */; };
+		20AFC472190D9DE000AAF974 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AFC471190D9DE000AAF974 /* CoreGraphics.framework */; };
+		20AFC474190D9DE000AAF974 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AFC473190D9DE000AAF974 /* UIKit.framework */; };
+		20AFC47A190D9DE000AAF974 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20AFC478190D9DE000AAF974 /* InfoPlist.strings */; };
+		20AFC47C190D9DE000AAF974 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AFC47B190D9DE000AAF974 /* main.m */; };
+		20AFC480190D9DE000AAF974 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AFC47F190D9DE000AAF974 /* AppDelegate.m */; };
+		20AFC483190D9DE000AAF974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20AFC481190D9DE000AAF974 /* Main.storyboard */; };
+		20AFC486190D9DE000AAF974 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AFC485190D9DE000AAF974 /* ViewController.m */; };
+		20AFC488190D9DE000AAF974 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20AFC487190D9DE000AAF974 /* Images.xcassets */; };
+		20AFC48F190D9DE000AAF974 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AFC48E190D9DE000AAF974 /* XCTest.framework */; };
+		20AFC490190D9DE000AAF974 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AFC46F190D9DE000AAF974 /* Foundation.framework */; };
+		20AFC491190D9DE000AAF974 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AFC473190D9DE000AAF974 /* UIKit.framework */; };
+		20AFC499190D9DE000AAF974 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20AFC497190D9DE000AAF974 /* InfoPlist.strings */; };
+		20AFC49B190D9DE000AAF974 /* Yolo_BearTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AFC49A190D9DE000AAF974 /* Yolo_BearTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20AFC492190D9DE000AAF974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20AFC464190D9DE000AAF974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20AFC46B190D9DE000AAF974;
+			remoteInfo = "Yolo Bear";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20AFC46C190D9DE000AAF974 /* Yolo Bear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yolo Bear.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20AFC46F190D9DE000AAF974 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20AFC471190D9DE000AAF974 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		20AFC473190D9DE000AAF974 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		20AFC477190D9DE000AAF974 /* Yolo Bear-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yolo Bear-Info.plist"; sourceTree = "<group>"; };
+		20AFC479190D9DE000AAF974 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20AFC47B190D9DE000AAF974 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20AFC47D190D9DE000AAF974 /* Yolo Bear-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yolo Bear-Prefix.pch"; sourceTree = "<group>"; };
+		20AFC47E190D9DE000AAF974 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20AFC47F190D9DE000AAF974 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20AFC482190D9DE000AAF974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20AFC484190D9DE000AAF974 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20AFC485190D9DE000AAF974 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20AFC487190D9DE000AAF974 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20AFC48D190D9DE000AAF974 /* Yolo BearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yolo BearTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20AFC48E190D9DE000AAF974 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		20AFC496190D9DE000AAF974 /* Yolo BearTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yolo BearTests-Info.plist"; sourceTree = "<group>"; };
+		20AFC498190D9DE000AAF974 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20AFC49A190D9DE000AAF974 /* Yolo_BearTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Yolo_BearTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20AFC469190D9DE000AAF974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AFC472190D9DE000AAF974 /* CoreGraphics.framework in Frameworks */,
+				20AFC474190D9DE000AAF974 /* UIKit.framework in Frameworks */,
+				20AFC470190D9DE000AAF974 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20AFC48A190D9DE000AAF974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AFC48F190D9DE000AAF974 /* XCTest.framework in Frameworks */,
+				20AFC491190D9DE000AAF974 /* UIKit.framework in Frameworks */,
+				20AFC490190D9DE000AAF974 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20AFC463190D9DE000AAF974 = {
+			isa = PBXGroup;
+			children = (
+				20AFC475190D9DE000AAF974 /* Yolo Bear */,
+				20AFC494190D9DE000AAF974 /* Yolo BearTests */,
+				20AFC46E190D9DE000AAF974 /* Frameworks */,
+				20AFC46D190D9DE000AAF974 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20AFC46D190D9DE000AAF974 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20AFC46C190D9DE000AAF974 /* Yolo Bear.app */,
+				20AFC48D190D9DE000AAF974 /* Yolo BearTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20AFC46E190D9DE000AAF974 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20AFC46F190D9DE000AAF974 /* Foundation.framework */,
+				20AFC471190D9DE000AAF974 /* CoreGraphics.framework */,
+				20AFC473190D9DE000AAF974 /* UIKit.framework */,
+				20AFC48E190D9DE000AAF974 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20AFC475190D9DE000AAF974 /* Yolo Bear */ = {
+			isa = PBXGroup;
+			children = (
+				20AFC47E190D9DE000AAF974 /* AppDelegate.h */,
+				20AFC47F190D9DE000AAF974 /* AppDelegate.m */,
+				20AFC481190D9DE000AAF974 /* Main.storyboard */,
+				20AFC484190D9DE000AAF974 /* ViewController.h */,
+				20AFC485190D9DE000AAF974 /* ViewController.m */,
+				20AFC487190D9DE000AAF974 /* Images.xcassets */,
+				20AFC476190D9DE000AAF974 /* Supporting Files */,
+			);
+			path = "Yolo Bear";
+			sourceTree = "<group>";
+		};
+		20AFC476190D9DE000AAF974 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20AFC477190D9DE000AAF974 /* Yolo Bear-Info.plist */,
+				20AFC478190D9DE000AAF974 /* InfoPlist.strings */,
+				20AFC47B190D9DE000AAF974 /* main.m */,
+				20AFC47D190D9DE000AAF974 /* Yolo Bear-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20AFC494190D9DE000AAF974 /* Yolo BearTests */ = {
+			isa = PBXGroup;
+			children = (
+				20AFC49A190D9DE000AAF974 /* Yolo_BearTests.m */,
+				20AFC495190D9DE000AAF974 /* Supporting Files */,
+			);
+			path = "Yolo BearTests";
+			sourceTree = "<group>";
+		};
+		20AFC495190D9DE000AAF974 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20AFC496190D9DE000AAF974 /* Yolo BearTests-Info.plist */,
+				20AFC497190D9DE000AAF974 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20AFC46B190D9DE000AAF974 /* Yolo Bear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20AFC49E190D9DE000AAF974 /* Build configuration list for PBXNativeTarget "Yolo Bear" */;
+			buildPhases = (
+				20AFC468190D9DE000AAF974 /* Sources */,
+				20AFC469190D9DE000AAF974 /* Frameworks */,
+				20AFC46A190D9DE000AAF974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yolo Bear";
+			productName = "Yolo Bear";
+			productReference = 20AFC46C190D9DE000AAF974 /* Yolo Bear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20AFC48C190D9DE000AAF974 /* Yolo BearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20AFC4A1190D9DE000AAF974 /* Build configuration list for PBXNativeTarget "Yolo BearTests" */;
+			buildPhases = (
+				20AFC489190D9DE000AAF974 /* Sources */,
+				20AFC48A190D9DE000AAF974 /* Frameworks */,
+				20AFC48B190D9DE000AAF974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20AFC493190D9DE000AAF974 /* PBXTargetDependency */,
+			);
+			name = "Yolo BearTests";
+			productName = "Yolo BearTests";
+			productReference = 20AFC48D190D9DE000AAF974 /* Yolo BearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20AFC464190D9DE000AAF974 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Because;
+				TargetAttributes = {
+					20AFC48C190D9DE000AAF974 = {
+						TestTargetID = 20AFC46B190D9DE000AAF974;
+					};
+				};
+			};
+			buildConfigurationList = 20AFC467190D9DE000AAF974 /* Build configuration list for PBXProject "Yolo Bear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20AFC463190D9DE000AAF974;
+			productRefGroup = 20AFC46D190D9DE000AAF974 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20AFC46B190D9DE000AAF974 /* Yolo Bear */,
+				20AFC48C190D9DE000AAF974 /* Yolo BearTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20AFC46A190D9DE000AAF974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AFC488190D9DE000AAF974 /* Images.xcassets in Resources */,
+				20AFC47A190D9DE000AAF974 /* InfoPlist.strings in Resources */,
+				20AFC483190D9DE000AAF974 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20AFC48B190D9DE000AAF974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AFC499190D9DE000AAF974 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20AFC468190D9DE000AAF974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AFC486190D9DE000AAF974 /* ViewController.m in Sources */,
+				20AFC480190D9DE000AAF974 /* AppDelegate.m in Sources */,
+				20AFC47C190D9DE000AAF974 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20AFC489190D9DE000AAF974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AFC49B190D9DE000AAF974 /* Yolo_BearTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20AFC493190D9DE000AAF974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20AFC46B190D9DE000AAF974 /* Yolo Bear */;
+			targetProxy = 20AFC492190D9DE000AAF974 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20AFC478190D9DE000AAF974 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20AFC479190D9DE000AAF974 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		20AFC481190D9DE000AAF974 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20AFC482190D9DE000AAF974 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20AFC497190D9DE000AAF974 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20AFC498190D9DE000AAF974 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20AFC49C190D9DE000AAF974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20AFC49D190D9DE000AAF974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20AFC49F190D9DE000AAF974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yolo Bear/Yolo Bear-Prefix.pch";
+				INFOPLIST_FILE = "Yolo Bear/Yolo Bear-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		20AFC4A0190D9DE000AAF974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yolo Bear/Yolo Bear-Prefix.pch";
+				INFOPLIST_FILE = "Yolo Bear/Yolo Bear-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		20AFC4A2190D9DE000AAF974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yolo Bear.app/Yolo Bear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yolo Bear/Yolo Bear-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Yolo BearTests/Yolo BearTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		20AFC4A3190D9DE000AAF974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yolo Bear.app/Yolo Bear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yolo Bear/Yolo Bear-Prefix.pch";
+				INFOPLIST_FILE = "Yolo BearTests/Yolo BearTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20AFC467190D9DE000AAF974 /* Build configuration list for PBXProject "Yolo Bear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20AFC49C190D9DE000AAF974 /* Debug */,
+				20AFC49D190D9DE000AAF974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20AFC49E190D9DE000AAF974 /* Build configuration list for PBXNativeTarget "Yolo Bear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20AFC49F190D9DE000AAF974 /* Debug */,
+				20AFC4A0190D9DE000AAF974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20AFC4A1190D9DE000AAF974 /* Build configuration list for PBXNativeTarget "Yolo BearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20AFC4A2190D9DE000AAF974 /* Debug */,
+				20AFC4A3190D9DE000AAF974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20AFC464190D9DE000AAF974 /* Project object */;
+}
