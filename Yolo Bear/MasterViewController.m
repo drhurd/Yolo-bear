@@ -30,7 +30,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
+    self.lm = [[LightManager alloc] init];
+	
+	
     self.locationManager = [[CLLocationManager alloc] init];
     self.locationManager.delegate = self;
     
@@ -47,6 +49,10 @@
         CLBeaconRegion *region = [[CLBeaconRegion alloc] initWithProximityUUID:uuid identifier:[uuid UUIDString]];
         self.rangedRegions[region] = [NSArray array];
     }
+	
+	// Set up the button
+	[self.view.btn addTarget:self action:@selector(btnHandler) forControlEvents:UIControlEventTouchUpInside];
+	
 }
 
 - (void)didReceiveMemoryWarning
@@ -66,6 +72,14 @@
      regions.  It will be displayed multiple times if that is the case.  If that is not desired,
      use a set instead of an array.
      */
+}
+
+
+- (void)btnHandler
+{
+	NSLog(@"Pressed");
+
+	[self.lm toggleLightStatus];
 }
 
 

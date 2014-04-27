@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseView.h"
+#import "LightManager.h"
 
 @interface MasterViewController : UIViewController
 
+@property (nonatomic, strong) LightManager* lm;
 @property (nonatomic, strong) BaseView* view;
 
 @end
