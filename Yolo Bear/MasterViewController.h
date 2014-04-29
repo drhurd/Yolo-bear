@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "BaseView.h"
 #import "CoreLocation/CoreLocation.h"
+#import "LightManager.h"
 
 @interface MasterViewController : UIViewController <CLLocationManagerDelegate>
 
@@ -21,5 +22,7 @@
 
 @property (strong, nonatomic) CLBeaconRegion *beaconRegion;
 @property (strong, nonatomic) CLLocationManager *locationManager;
+
+@property (strong, nonatomic) LightManager* lightManager;
 
 @end

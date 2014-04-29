@@ -10,6 +10,9 @@
 
 @interface LightManager : NSObject <NSURLConnectionDelegate>
 
+- (void)setLightToStatus:(BOOL)light_activated;
+- (void)toggleLightStatus;
+
 @property NSMutableData* responseData;
 
 @end

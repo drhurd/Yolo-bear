@@ -38,6 +38,16 @@
 	}
 }
 
+- (void)toggleLightStatus
+{
+	// Create the request.
+	NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://192.168.1.177/"]];
+	
+	// Create url connection and fire request
+	NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+}
+
+
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
     // A response has been received, this is where we initialize the instance var you created
     // so that we can append data to it in the didReceiveData method

@@ -36,7 +36,10 @@ bool fact1 = false;
     self.locationManager.delegate = self;
     [self initRegion];
     
-    
+    // Initialize Light Manager
+	self.lightManager = [[LightManager alloc] init];
+	
+	
     // Initialize label
     self.beaconLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 230, 300, 300)];
     self.beaconLabel.text = @"Out in the Wild";
@@ -134,9 +137,7 @@ bool fact1 = false;
     [self.locationManager startRangingBeaconsInRegion:self.beaconRegion];
     
     // Turn light on
-    
-//setLightToStatus();
-    
+    [self.lightManager toggleLightStatus];
     
     // Send notification
     UILocalNotification *ntf = [[UILocalNotification alloc] init];
@@ -156,9 +157,9 @@ bool fact1 = false;
     
     [self.locationManager stopRangingBeaconsInRegion:self.beaconRegion];
     
+
     // Turn light off
-    
-//setLightToStatus();
+	[self.lightManager toggleLightStatus];
     
     // Send notification
     UILocalNotification *ntf = [[UILocalNotification alloc] init];
