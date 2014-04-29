@@ -11,5 +11,7 @@
 @interface BaseView : UIView
 
 @property (nonatomic, strong) UIButton *btn;
+@property (nonatomic, strong) UIImageView *lit;
+@property (nonatomic, strong) UIImageView *unlit;
 
 @end

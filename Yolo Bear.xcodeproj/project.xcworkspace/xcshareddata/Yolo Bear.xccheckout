@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3DF689AB-591C-4A06-AE05-68EF01302738</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Yolo Bear</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D7CBD900-B7C9-4251-B6E3-4D9436239131</key>
+		<string>https://github.com/drhurd/Yolo-bear.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Yolo Bear.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D7CBD900-B7C9-4251-B6E3-4D9436239131</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/drhurd/Yolo-bear.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D7CBD900-B7C9-4251-B6E3-4D9436239131</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D7CBD900-B7C9-4251-B6E3-4D9436239131</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Yolo-bear</string>
+		</dict>
+	</array>
+</dict>
+</plist>

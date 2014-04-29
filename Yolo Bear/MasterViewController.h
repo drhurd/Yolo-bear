@@ -8,9 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseView.h"
+#import "CoreLocation/CoreLocation.h"
 
-@interface MasterViewController : UIViewController
+@interface MasterViewController : UIViewController <CLLocationManagerDelegate>
 
 @property (nonatomic, strong) BaseView* view;
+@property (nonatomic, strong) UILabel *beaconLabel;
+@property (nonatomic, strong) UIImageView *leaf;
+@property (nonatomic, strong) UITextView *funFact;
+@property (nonatomic, strong) UIButton *leafButton;
+@property (nonatomic, strong) NSArray *funFacts;
+
+@property (strong, nonatomic) CLBeaconRegion *beaconRegion;
+@property (strong, nonatomic) CLLocationManager *locationManager;
 
 @end
